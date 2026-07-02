@@ -2,8 +2,6 @@
   <img src="https://img.magnific.com/free-photo/laptop-with-glowing-screen-table-dark-top-view-copy-space_169016-51607.jpg?semt=ais_hybrid&w=740&q=80" alt="Workspace" width="740" />
 </p>
 
-<h2 align="center">Study Workspace</h2>
-
 <p align="center">Personal self-learning repository.</p>
 
 ---
@@ -11,7 +9,7 @@
 
 - **30-days-with/devops**
   <!-- progress-link: 30-days-with/devops/README.md -->
-    Progress: [░░░░░░░░░░] 0%
+    Progress: [█░░░░░░░░░] 10%
     <!-- progress-link-end -->
 
 - **books/the-devops-handbook**

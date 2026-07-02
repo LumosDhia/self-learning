@@ -1,0 +1,52 @@
+/* Force Catppuccin theme to always use Mocha flavor in both light and dark mode */
+.theme-light,
+.theme-dark,
+body.theme-light,
+body.theme-dark,
+body.ctp-latte,
+body.ctp-frappe,
+body.ctp-macchiato,
+body.ctp-mocha {
+  --ctp-rosewater: 245, 224, 220 !important;
+  --ctp-flamingo: 242, 205, 205 !important;
+  --ctp-pink: 245, 194, 231 !important;
+  --ctp-mauve: 203, 166, 247 !important;
+  --ctp-red: 243, 139, 168 !important;
+  --ctp-maroon: 235, 160, 172 !important;
+  --ctp-peach: 250, 179, 135 !important;
+  --ctp-yellow: 249, 226, 175 !important;
+  --ctp-green: 166, 227, 161 !important;
+  --ctp-teal: 148, 226, 213 !important;
+  --ctp-sky: 137, 220, 235 !important;
+  --ctp-sapphire: 116, 199, 236 !important;
+  --ctp-blue: 137, 180, 250 !important;
+  --ctp-lavender: 180, 190, 254 !important;
+  --ctp-text: 205, 214, 244 !important;
+  --ctp-subtext1: 186, 194, 222 !important;
+  --ctp-subtext0: 166, 173, 200 !important;
+  --ctp-overlay2: 147, 153, 178 !important;
+  --ctp-overlay1: 127, 132, 156 !important;
+  --ctp-overlay0: 108, 112, 134 !important;
+  --ctp-surface2: 88, 91, 112 !important;
+  --ctp-surface1: 69, 71, 90 !important;
+  --ctp-surface0: 49, 50, 68 !important;
+  --ctp-base: 30, 30, 46 !important;
+  --ctp-mantle: 24, 24, 37 !important;
+  --ctp-crust: 17, 17, 27 !important;
+  --hex-pink: #f5c2e7 !important;
+  --hex-mauve: #cba6f7 !important;
+  --hex-red: #f38ba8 !important;
+  --hex-peach: #fab387 !important;
+  --hex-yellow: #f9e2af !important;
+  --hex-green: #a6e3a1 !important;
+  --hex-teal: #94e2d5 !important;
+  --hex-sky: #89dceb !important;
+  --hex-sapphire: #74c7ec !important;
+  --hex-blue: #89b4fa !important;
+  --hex-lavender: #b4befe !important;
+}
+
+.theme-light {
+  color-scheme: dark !important;
+  --highlight-mix-blend-mode: lighten !important;
+}
