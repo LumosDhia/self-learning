@@ -1,0 +1,12 @@
+#!/bin/sh
+# This repo feeds the "Course" widget on the sideplan dashboard
+# (../sideplan). Whenever a checklist commit happens here, refresh
+# sideplan's course.json so the widget stays in sync automatically.
+repo_root="$(git rev-parse --show-toplevel)"
+sideplan_dir="$repo_root/../sideplan"
+
+if [ -f "$sideplan_dir/scripts/gen_course.py" ]; then
+    python "$sideplan_dir/scripts/gen_course.py" >/dev/null 2>&1 \
+        || python3 "$sideplan_dir/scripts/gen_course.py" >/dev/null 2>&1
+    git -C "$sideplan_dir" add course.json >/dev/null 2>&1
+fi
