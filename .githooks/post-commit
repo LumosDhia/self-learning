@@ -1,12 +1,12 @@
 #!/bin/sh
-# This repo feeds the "Course" widget on the sideplan dashboard
-# (../sideplan). Whenever a checklist commit happens here, refresh
-# sideplan's course.json so the widget stays in sync automatically.
+# This repo feeds the "Course" widget on the sidoplan dashboard
+# (../sidoplan). Whenever a checklist commit happens here, refresh
+# sidoplan's course.json so the widget stays in sync automatically.
 repo_root="$(git rev-parse --show-toplevel)"
-sideplan_dir="$repo_root/../sideplan"
+sidoplan_dir="$repo_root/../sidoplan"
 
-if [ -f "$sideplan_dir/scripts/gen_course.py" ]; then
-    python "$sideplan_dir/scripts/gen_course.py" >/dev/null 2>&1 \
-        || python3 "$sideplan_dir/scripts/gen_course.py" >/dev/null 2>&1
-    git -C "$sideplan_dir" add course.json >/dev/null 2>&1
+if [ -f "$sidoplan_dir/scripts/gen_course.py" ]; then
+    python "$sidoplan_dir/scripts/gen_course.py" >/dev/null 2>&1 \
+        || python3 "$sidoplan_dir/scripts/gen_course.py" >/dev/null 2>&1
+    git -C "$sidoplan_dir" add course.json >/dev/null 2>&1
 fi
