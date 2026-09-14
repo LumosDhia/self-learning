@@ -17,7 +17,7 @@ Use the checklist below to track your daily progress. Click on the video titles 
 - [x] [**Day 2:** Maven Hands-On](https://youtube.com/watch?v=-KqyFvEJYz0)
 - [x] [**Day 3:** Apache Tomcat Hands-On](https://youtube.com/watch?v=A7of3oK7deM)
 - [x] [**Day 4:** Jenkins | CI CD Pipeline](https://youtube.com/watch?v=zQpDnuUuff4)
-- [x] [**Day 5:** SonarQube](https://youtube.com/watch?v=adeZbnxFhak) — [notes](notes/day-05-sonarqube.md)
+- [x] [**Day 5:** SonarQube](https://youtube.com/watch?v=adeZbnxFhak) - [notes](notes/day-05-sonarqube.md)
 - [ ] [**Day 6:** OWASP Dependency Check](https://youtube.com/watch?v=1K_OPDOIb5U)
 - [ ] [**Day 7:** NEXUS](https://youtube.com/watch?v=zH3cjXQmqJo)
 - [ ] [**Day 8:** Docker](https://youtube.com/watch?v=3AkrcNETMC0)
