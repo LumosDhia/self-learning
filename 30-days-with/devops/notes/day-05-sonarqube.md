@@ -20,7 +20,3 @@ SonarQube is a security and static analysis tool we run against our source code.
 - **JaCoCo** is the third-party tool that generates the code coverage shown inside SonarQube.
 - Sonar uses different **rules** to find the issues in the source code.
 - Triple quotes are used to write multiple lines in a Jenkins pipeline.
-
-## Links
-- [[day-04-jenkins-ci-cd-pipeline]]
-- [[day-06-owasp-dependency-check]]

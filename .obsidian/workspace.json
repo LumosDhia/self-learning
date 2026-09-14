@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "30-days-with/devops/notes/day-05-sonarqube.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "day-05-sonarqube"
             }
           }
         ]
@@ -41,7 +41,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -185,9 +187,11 @@
   },
   "active": "f65e4185e76de798",
   "lastOpenFiles": [
+    "README.md",
+    "day-06-owasp-dependency-check.md",
+    "30-days-with/devops/notes/day-05-sonarqube.md",
     "30-days-with/devops/README.md",
     "Untitled.base",
-    "README.md",
     "books/the-devops-handbook/README.md"
   ]
 }
