@@ -9,7 +9,7 @@
 
 - **30-days-with/devops**
   <!-- progress-link: 30-days-with/devops/README.md -->
-    Progress: [█░░░░░░░░░] 10%
+    Progress: [██░░░░░░░░] 20%
     <!-- progress-link-end -->
 
 - **books/the-devops-handbook**
