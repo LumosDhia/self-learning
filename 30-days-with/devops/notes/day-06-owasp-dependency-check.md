@@ -17,8 +17,8 @@ OWASP Dependency Check is used to find vulnerabilities in the libraries a projec
 - The libraries themselves come from **mvnrepository.com** and other public library sites.
 - OWASP can find vulnerabilities for many types of languages, not just Java.
 
-## Open questions
-- [ ] Where exactly does the dependency check run in the pipeline: after the build?
-
-## Links
-- [[day-05-sonarqube]]
+## Where it runs in the pipeline
+- The dependency check runs **after the build**. The build is what resolves and downloads the full dependency tree, so before it there is nothing complete to scan.
+- In Maven it is the `dependency-check-maven` plugin, normally bound to the `verify` phase, which comes after `package`.
+- In Jenkins it is its own stage placed after the build stage, scanning the workspace where the resolved jars already sit.
+- It works off a local copy of the NVD (National Vulnerability Database), so the first run is slow while that database downloads, and it reports each finding with a CVE id and a severity.
